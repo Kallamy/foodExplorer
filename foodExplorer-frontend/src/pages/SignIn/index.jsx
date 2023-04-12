@@ -3,7 +3,7 @@ import { Container, Form, Logo } from "./styles";
 import { Link } from 'react-router-dom';
 
 import { Button }from "../../components/Button";
-export function SignUp() {
+export function SignIn() {
 
     return (
         <Container>
@@ -20,7 +20,7 @@ export function SignUp() {
 
             </Logo>
            <Form>
-                <h2>Crie sua conta</h2>
+                <h2>Faça Login</h2>
 
 
             <div className="inputGroup">
@@ -40,11 +40,11 @@ export function SignUp() {
             </div>
 
             <Button
-                title="Criar conta"
+                title="Entrar"
             />
 
             <Link>
-                Já tenho uma conta
+                Criar uma conta
             </Link>
            </Form>
 
