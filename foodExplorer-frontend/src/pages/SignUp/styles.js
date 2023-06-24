@@ -6,13 +6,13 @@ import theme from '../../styles/theme';
     justify-content: space-between;
     background: #1e1e1e; 
     height: 100vh;
-    color: ${theme.COLORS.Light.Light_100};
+    color: ${theme.COLORS.Light_100};
   
 `;
 
 
  export const Form = styled.form`
-    background: ${ theme.COLORS.Dark.Dark_700 };
+    background: ${ theme.COLORS.Dark_700 };
     margin-top: 4.06rem;    display: flex;
     margin-right: 6rem;
     flex-direction: column;
@@ -31,8 +31,8 @@ import theme from '../../styles/theme';
     }
 
     input {
-        background: ${ theme.COLORS.Dark.Dark_900 };
-        color: ${ theme.COLORS.Light.Light_300};
+        background: ${ theme.COLORS.Dark_900 };
+        color: ${ theme.COLORS.Light_300};
         
         font-family: "Roboto", sans-serif;
 
@@ -46,12 +46,12 @@ import theme from '../../styles/theme';
         text-align: left;
         font-family: "Roboto", sans-serif;
 
-        color: ${ theme.COLORS.Light.Light_400};
+        color: ${ theme.COLORS.Light_400};
         margin-bottom: .75rem;
     }
 
     a {
-        color: ${ theme.COLORS.Light.Light_100};
+        color: ${ theme.COLORS.Light_100};
         font-family: "Poppins", sans-serif;
         font-size: .875rem;
         text-decoration: none;

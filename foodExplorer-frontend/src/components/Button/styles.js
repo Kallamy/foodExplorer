@@ -7,7 +7,7 @@ export const Container = styled.button`
     justify-content: center;
     border: none;
 
-    color: ${theme.COLORS.Light.Light_100};
+    color: ${theme.COLORS.Light_100};
     background: ${theme.COLORS.Tints.Tomato_100};
 
     margin-top: 2rem;
